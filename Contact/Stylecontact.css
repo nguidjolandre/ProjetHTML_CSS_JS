@@ -140,7 +140,27 @@ contactForm .inputBox textarea:valid ~ span{
     .container .contactInfo{
         margin-bottom: 40px;
     }
-    .container .contactInfo{
+    .container .contactInfo
+    .contactForm{
         width: 100%;
     }
+}
+
+/* Message Box */
+.message-box {
+    padding: 10px;
+    margin: 10px 0;
+    text-align:left;
+}
+
+.message-box.success {
+    background-color: #fff;
+    color: green;
+}
+
+.message-box.error {
+    background-color: #fff;
+
+    color:red;
+
 }
