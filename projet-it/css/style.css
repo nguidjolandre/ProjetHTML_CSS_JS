@@ -1,0 +1,38 @@
+.rectangle{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    color: white;
+    font-size: 2em;
+    transition: all 5s;
+}
+.parent{
+    display: flex;
+    padding: ;
+
+}
+.cercle{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border: ;
+}
+
+.services-list li {
+    font-weight: bold;
+  }
+
+
+.button {
+    
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.button:hover {
+    background-color: #0056b3;
+}
+
