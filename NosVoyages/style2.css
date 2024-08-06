@@ -382,6 +382,8 @@ h1{
     text-align: center;
     margin-top: 15px;
     margin-bottom: 25px;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
 .foods-list{
     display: flex;
@@ -404,3 +406,45 @@ h3{
 .foods-list .box:hover{
     transform: scale(1.05);
 }
+.fidelity_prog{
+    margin: 35px 0;
+    height: 350px;
+width: 100%;
+background: url(./images/im11.jpg);
+background-position: center;
+background-size: cover;
+padding: 20px 10%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+overflow: hidden;
+}
+.fidelity_prog div{
+   
+justify-content: center;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.fidelity_prog button{
+   margin-top: 25px;
+   background-color: #f7a800;
+
+    }
+    .fidelity_prog div1{
+   
+       width: 300px;
+        }
+        .fidelity_prog div2{
+   
+            width: 350px;
+            margin-top: 25px;
+             }
+             .fidelity_prog div3{
+   
+                width: 410px;
+            
+                 }
+                 .fidelity_prog img{
+                    width: 100%;
+                 }
