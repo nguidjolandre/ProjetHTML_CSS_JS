@@ -132,6 +132,7 @@ steps p{
     top: 0;
     top: 50%;
     width: 60%;
+    transform: scale(1.05);
 }
 #possibilities{
     background-color: #efefef;
@@ -141,6 +142,7 @@ steps p{
         height: 270px;
         float: left;
         border-radius: 10px;
+        transform: scale(1.05);
     }
 
     #possibilities article:first-child{
@@ -156,6 +158,8 @@ steps p{
         box-sizing: border-box;
         text-align: center;
         list-style-type: none;
+        transition: 0.5s ease-out;
+        cursor: pointer;
     }
     #possibility-1{
         background-image: url(./images/im5.jpg) ;
@@ -170,6 +174,7 @@ steps p{
             margin-right: 50px;
             max-width: 75%;
             list-style-type: none;
+            transform: scale(1.05);
             
         }
         
@@ -265,6 +270,7 @@ h1{
 }*/
 article img{
     border-radius: 20px 0;
+    transform: scale(1.05);
 }
 
 article p{
@@ -336,6 +342,65 @@ h3{
     }*/
 
     
+.logo {
+    background-color: blue;
+    height: 50px;
+    width: 50px;
+    margin-left: 200px;
+    color: #ba2e2e;
+    font-size: 24px;
+    text-align: center;
+    transition: all 2s;
+}
+.logo:hover {
+    background-color: orangered;
+    font-size: 50px;  
+}
+
+.wrapper .overlay{
+    transition: 0.5s ease-out;
+    cursor: pointer;
+}
+
 
     
 
+
+
+.foods{
+    margin: 50px 0;
+    padding: 0 10%;
+
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family:'Anton' , sans-serif;
+}
+.foods p{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.foods-list{
+    display: flex;
+    justify-content: space-between;
+}
+.foods-list img{
+    box-shadow: 0 0 9px rgb(0, 0, 0.1);
+    width: 350px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+h3{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.foods-list .box{
+    transition: 0.5s ease-out;
+    cursor: pointer;
+}
+.foods-list .box:hover{
+    transform: scale(1.05);
+}
